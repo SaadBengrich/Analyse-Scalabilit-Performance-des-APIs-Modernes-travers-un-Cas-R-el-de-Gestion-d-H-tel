@@ -1,4 +1,4 @@
-<img width="1918" height="1078" alt="1" src="https://github.com/user-attachments/assets/975dde57-f8f7-4bf0-af51-8c0a442f7d24" /><img width="1918" height="1078" alt="1" src="https://github.com/user-attachments/assets/b0bc6b38-f627-4ee9-be9a-55fdc532e38f" /># Comparaison des Technologies d'API
+# Comparaison des Technologies d'API
 ## REST, SOAP, GraphQL et gRPC - Cas d'Étude: Plateforme de Réservation Hôtelière
 
 **Auteurs:** BENGRICH Saad, JABBOUR Omar  
