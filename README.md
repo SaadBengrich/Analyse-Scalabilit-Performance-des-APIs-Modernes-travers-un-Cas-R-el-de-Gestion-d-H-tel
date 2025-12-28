@@ -1,4 +1,4 @@
-# Comparaison des Technologies d'API
+<img width="1918" height="1078" alt="1" src="https://github.com/user-attachments/assets/975dde57-f8f7-4bf0-af51-8c0a442f7d24" /><img width="1918" height="1078" alt="1" src="https://github.com/user-attachments/assets/b0bc6b38-f627-4ee9-be9a-55fdc532e38f" /># Comparaison des Technologies d'API
 ## REST, SOAP, GraphQL et gRPC - Cas d'Étude: Plateforme de Réservation Hôtelière
 
 **Auteurs:** BENGRICH Saad, JABBOUR Omar  
@@ -356,55 +356,13 @@ Cette étude compare quatre technologies d'API majeures (REST, SOAP, GraphQL, gR
 
 ---
 
-### Architecture Hybride Recommandée
+### les conteneur docker
 
 ```
-┌─────────────────────────────────────────────┐
-│         API Gateway / Load Balancer         │
-│            (Kong / AWS API Gateway)          │
-└─────────────────┬───────────────────────────┘
-                  │
-        ┌─────────┴─────────┐
-        │                   │
-┌───────▼────────┐  ┌───────▼────────┐
-│   REST API     │  │  GraphQL API   │
-│   Port 8080    │  │   Port 4000    │
-│                │  │                │
-│ • Web public   │  │ • Apps mobile  │
-│ • SEO          │  │ • Dashboards   │
-│ • Simplicité   │  │ • Données      │
-│ • Cache CDN    │  │   complexes    │
-│                │  │ • Agrégation   │
-└───────┬────────┘  └───────┬────────┘
-        │                   │
-        └─────────┬─────────┘
-                  │
-        ┌─────────▼─────────┐
-        │   gRPC Services   │
-        │   Port 50051      │
-        │                   │
-        │ • Microservices   │
-        │ • Communication   │
-        │   interne         │
-        │ • Streaming       │
-        │ • Événements      │
-        └─────────┬─────────┘
-                  │
-        ┌─────────▼─────────┐
-        │   SOAP Gateway    │
-        │   Port 8081       │
-        │                   │
-        │ • Intégrations    │
-        │   B2B/Legacy      │
-        │ • ERP/CRM         │
-        │ • SAP/Oracle      │
-        └─────────┬─────────┘
-                  │
-        ┌─────────▼─────────┐
-        │   PostgreSQL DB   │
-        │   Port 5432       │
-        └───────────────────┘
+
+
 ```
+<img width="1918" height="1078" alt="1" src="https://github.com/user-attachments/assets/ce8828f6-0182-4e1b-9412-7f7fc86704c0" />
 
 ---
 
