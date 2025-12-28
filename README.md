@@ -365,6 +365,9 @@ Cette étude compare quatre technologies d'API majeures (REST, SOAP, GraphQL, gR
 <img width="1918" height="1078" alt="1" src="https://github.com/user-attachments/assets/ce8828f6-0182-4e1b-9412-7f7fc86704c0" />
 
 ---
+### Execution des tests
+
+<img width="1092" height="666" alt="2" src="https://github.com/user-attachments/assets/df941a46-5962-46ed-99f9-561a9899b676" />
 
 ### Matrice de Décision Rapide
 
